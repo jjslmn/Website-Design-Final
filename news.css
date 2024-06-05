@@ -1,0 +1,42 @@
+body {
+    background-color: #ededed;
+}
+/* Centering content */
+.content-box {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1300px; /* Adjust the width as needed */
+}
+
+/* Styling for sections */
+.section {
+
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+/* Styling for date */
+.date {
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    font-size: 20px;
+    color: rgb(95, 125, 246);
+}
+
+/* Styling for title */
+.title {
+    font-weight: bold;
+    font-size: 65px;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* Styling for content */
+.content {
+    text-align: justify;
+    margin-right: 120px;
+    font-size: 25px;
+    padding: 40px;
+}

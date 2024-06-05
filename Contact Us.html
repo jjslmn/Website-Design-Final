@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech4Kids - Our Mission</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ededed;
+        }
+        /* Style for mission title */
+        .title {
+            text-align: left;
+            font-weight: bold;
+            font-size: 40px;
+            margin-left: 25%;
+        }
+
+        /* Style for mission content */
+        .content {
+            margin: 20px auto;
+            width: 50%;
+            text-align: justify;
+        }
+
+        .contact-box {
+            background-color: #29355cde;
+            border: 2px solid #ccc;
+            padding: 30px;
+            width: 1000px;
+            height: 305px;
+            margin-left: 400px;
+            margin-bottom: 50px;
+        }
+
+        .input-group {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-left: 40px;
+            color: white;
+        }
+
+        .input-group div {
+            flex: 1;
+            margin-right: 50px; /* Adjust as needed for spacing */
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 5px;
+            margin-top: 15px;
+        }
+
+        .input-group input {
+            width: 250px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+        .input-group textarea {
+            width: 890px;
+            height: 100px;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+
+        .submit-button {
+            margin-left: 82%;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<!--banner-->
+<header>
+    <h1 style="display: inline-flex; justify-content: center;">
+        <img src="techforkids.jpg" width="6%" height="auto" style="margin-right: 10px;">
+        <div>The Tech for Kids Foundation</div>
+        <img src="techforkids.jpg" width="6%" height="auto" style="margin-left: 10px;">
+    </h1>
+</header>
+<!--navigation bar-->
+<nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Donations.html">Donations</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Events.html">Events</a></li>
+    </ul>
+</nav>
+<!--Page content-->
+<div class="title">
+    <h2>Let's Chat</h2>
+</div>
+<div class="content">
+    <div style="display: flex; margin-bottom: 30px; font-size: 30px;">
+        <div style="margin-left: 15px; margin-right: 300px">Phone</div>
+        <div>Email</div>
+    </div>
+    <div style="display: flex; margin-bottom: 50px; font-size: 20px;">
+        <div style="margin-right: 230px">123-466-7890</div><br>
+        <div>info@tech4kids.com</div>
+    </div>
+</div>
+
+<div class="contact-box">
+    <form action="submit.html" method="post">
+        <div class="input-group" >
+            <div>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+            <div>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="tel" id="email" name="email" required>
+            </div>
+
+        </div>
+        <div class="input-group">
+            <label for="msg">Message</label>
+        </div>
+        <div class="input-group">
+            <textarea type="text" id="msg" name="msg" required></textarea>
+        </div>
+
+
+    </form>
+    <!-- Submit Button -->
+    <input type="submit" value="Submit" class="submit-button">
+</div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="content-box-socials">
+            <div class="socials">
+                <p>Connect with us:</p>
+            </div>
+            <p>Facebook</p>
+            <p>Twitter</p>   
+            <p>Instagram</p>
+            <p>Youtube</p> 
+            <p>LinkedIn</p>     
+        </div>
+
+        <div class="content-box-pages">
+            <p>Home</p>
+            <p>Donations</p>   
+            <p>About Us</p>
+            <p>Strategy</p> 
+            <p>News</p>  
+            <p>Events</p> 
+        </div>
+
+        <div class="content-box-etc">
+            <p>Frequently Asked Questions</p>
+            <p>Privacy Policy</p>   
+            <p>Get Involved</p>
+            <p>Get Updates</p> 
+            <p>Partner with us</p>  
+        </div>
+    </footer>
+</body>
+</html>

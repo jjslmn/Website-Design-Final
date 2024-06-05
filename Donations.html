@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech4Kids</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #ededed;
+        }
+
+        /* Styles for form container */
+        .form-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        /* Styles for donation box */
+        .donation-box {
+            border: 2px solid #ccc;
+            padding: 20px;
+            max-width: 400px;
+            width: 100%;
+            margin-right: 300px;
+        }
+
+        .input-group {
+            margin-bottom: 10px;
+            text-align: left;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        /* Styles for image and text */
+        .side-content {
+            flex: 1;
+            margin-left: 300px;
+        }
+        .side-content h2{
+            font-size: 50px;
+            margin-bottom: 10px;
+            margin-top: 0px;
+        }
+        .side-content p{
+            max-width: 600px;
+            text-align: left;
+            font-size: 20px;
+        }
+        .side-content img {
+            max-width:75%;
+            height: auto;
+            display: block;
+            margin-bottom: 20px;
+            border-radius: 15px;
+        }
+
+        .submit-button {
+            margin-left: 40%;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- Banner -->
+<header>
+    <h1 style="display: inline-flex; justify-content: center;">
+        <img src="techforkids.jpg" width="6%" height="auto" style="margin-right: 10px;">
+        <div>The Tech for Kids Foundation</div>
+        <img src="techforkids.jpg" width="6%" height="auto" style="margin-left: 10px;">
+    </h1>
+</header>
+<!-- Navigation Bar -->
+<nav>
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Donations.html">Donations</a></li>
+        <li><a href="About Us.html">About Us</a></li>
+        <li><a href="Contact Us.html">Contact Us</a></li>
+        <li><a href="News.html">News</a></li>
+        <li><a href="Events.html">Events</a></li>
+    </ul>
+</nav>
+<!-- Page Content -->
+<div class="form-container">
+    <div class="side-content">
+        <h2>Create Opportunities Today</h2>
+        <img src="donations.jpg" alt="Example Image">
+        <p>When you donate to Tech for Kids, you are helping children succeed in school, helping adults get good paying jobs, increasing access to technology for individuals across the world, and more. Your donation to The Tech for Kids Foundation will be directed toward where it is needed the most.</p>
+    </div>
+    <div class="donation-box">
+        <h2 style="text-align: center; font-size: 30px;">Make a Donation</h2>
+        <form action="submit.html" method="post">
+            <div class="input-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="input-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="creditcard">Credit Card Number:</label>
+                <input type="text" id="creditcard" name="creditcard" required>
+            </div>
+
+            <div class="input-group">
+                <label for="exp">Expiration date:</label>
+                <input type="text" id="exp" name="exp" required>
+            </div>
+
+            <div class="input-group">
+                <label for="cvc">CVC code:</label>
+                <input type="text" id="cvc" name="cvc" required>
+            </div>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Submit" class="submit-button">
+        </form>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="content-box-socials">
+            <div class="socials">
+                <p>Connect with us:</p>
+            </div>
+            <p>Facebook</p>
+            <p>Twitter</p>   
+            <p>Instagram</p>
+            <p>Youtube</p> 
+            <p>LinkedIn</p>     
+        </div>
+
+        <div class="content-box-pages">
+            <p>Home</p>
+            <p>Donations</p>   
+            <p>About Us</p>
+            <p>Strategy</p> 
+            <p>News</p>  
+            <p>Events</p> 
+        </div>
+
+        <div class="content-box-etc">
+            <p>Frequently Asked Questions</p>
+            <p>Privacy Policy</p>   
+            <p>Get Involved</p>
+            <p>Get Updates</p> 
+            <p>Partner with us</p>  
+        </div>
+    </footer>
+</body>
+</html>
